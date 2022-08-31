@@ -1,6 +1,7 @@
 html, body, ul, ol, li, form, fieldset, legend {
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 .navbar-nav>li>a {
     padding-top: 10px;
@@ -40,7 +41,7 @@ html, body, ul, ol, li, form, fieldset, legend {
 
 .se1{
     padding-top: 200px;
-    width: 50%;
+    width: 100%;
     margin-left: 30px;
     padding-bottom: 50px;
   
@@ -138,9 +139,7 @@ background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.p
     background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/page/portfolio/quadcopter2.png);
     background-size: cover;
     background-position: center;
-    z-index: 0;
-    width: 70vh;
-    height: 70vh;
+    width: 100vh;
     position: relative;
 }
 
