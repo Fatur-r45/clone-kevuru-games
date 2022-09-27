@@ -28,6 +28,8 @@ html, body, ul, ol, li, form, fieldset, legend {
 #banner2 {
     background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.png');
     background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 #banner3 {
     background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/Unity-Development-min.jpg');
@@ -45,6 +47,12 @@ html, body, ul, ol, li, form, fieldset, legend {
     padding-bottom: 50px;
   
 
+}
+
+.se3{
+    padding-top: 200px;
+    width: 50%;
+    padding-bottom: 50px;
 }
 
 .se2{
