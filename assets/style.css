@@ -184,3 +184,17 @@ background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.p
     font-size: 14px;
     width: 100%;
 }
+
+.banner_images{    
+    position: absolute;
+    opacity: 0.2;
+    z-index: 99;
+    right: 0;
+    transform: rotate(-20deg);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.scene__image{
+    width: 400px;
+}
