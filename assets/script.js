@@ -4,11 +4,10 @@ const mediaQuery = window.matchMedia("(max-width: 400px)");
 window.onscroll = () => {
   if (window.scrollY > 250) {
     navbar.classList.add("bg-dark");
+  } else if (mediaQuery.matches) {
+    // Then trigger an alert
+    navbar.classList.add("bg-dark");
   } else {
-    if (mediaQuery.matches) {
-      // Then trigger an alert
-      navbar.classList.add("bg-dark");
-    }
     navbar.classList.remove("bg-dark");
   }
 };
