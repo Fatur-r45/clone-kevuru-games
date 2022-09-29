@@ -167,7 +167,6 @@ background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.p
 #uper-top-footer{
     background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/footer-bg-top.png);
     background-size: cover;
-    width: 100%;
     height: 30px;
     margin-left: 3px;
 }
@@ -176,8 +175,7 @@ background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.p
     background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/footer-bg.jpg);
     background-size: cover;
     background-position: top left;
-    width: 100%;
-    height: 70%;
+    /* height: 70%; */
 }
 
 .kartu{
