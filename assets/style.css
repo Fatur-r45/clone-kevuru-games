@@ -294,3 +294,15 @@ legend {
   position: relative;
   z-index: 99;
 }
+
+.gambar-game {
+  /* width: 410px; */
+  height: 320px;
+}
+
+/* @media (min-width: 414px) {
+  .gambar-game {
+    width: 320px;
+    height: 220px;
+  }
+} */
