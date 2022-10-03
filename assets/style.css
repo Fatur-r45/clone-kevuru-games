@@ -298,6 +298,11 @@ legend {
 .gambar-game {
   /* width: 410px; */
   height: 320px;
+  transition-duration: 150ms;
+}
+
+.gambar-game:hover {
+  scale: 1.1;
 }
 
 /* @media (min-width: 414px) {
