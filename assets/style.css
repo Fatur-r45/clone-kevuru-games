@@ -47,8 +47,45 @@ legend {
 }
 
 #banner4 {
+  position: relative;
   background-image: url("https://kevurugames.com/wp-content/uploads/2020/09/bg.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+#banner4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      22.59% 164.65% at 102.23% 81.83%,
+      rgba(77, 198, 245, 0.077) 0,
+      rgba(77, 198, 245, 0) 100%
+    ),
+    linear-gradient(
+      286.43deg,
+      rgba(69, 162, 237, 0.25) -8.59%,
+      rgba(69, 162, 237, 0) 33.25%
+    ),
+    linear-gradient(
+      269.78deg,
+      rgba(134, 117, 179, 0.18) 12.52%,
+      rgba(148, 103, 234, 0) 46.51%
+    ),
+    linear-gradient(
+      275.31deg,
+      rgba(74, 57, 184, 0.19) 31.8%,
+      rgba(74, 57, 184, 0) 59.56%
+    ),
+    linear-gradient(
+      88.51deg,
+      rgba(0, 3, 16, 0.51) 49.04%,
+      rgba(0, 3, 16, 0.3162) 91.81%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .gobsay {
@@ -251,4 +288,9 @@ legend {
 
 .sub-text {
   color: #956cbf;
+}
+
+.content-contact {
+  position: relative;
+  z-index: 99;
 }
