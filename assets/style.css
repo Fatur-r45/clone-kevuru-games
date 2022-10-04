@@ -305,9 +305,12 @@ legend {
   scale: 1.1;
 }
 
-/* @media (min-width: 414px) {
-  .gambar-game {
-    width: 320px;
-    height: 220px;
+.practices {
+  background: linear-gradient(rgb(255, 251, 251, 1), rgb(9, 164, 236, 0.2));
+}
+
+@media (max-width: 767.98px) {
+  .feature-image .gambar-game {
+    height: 200px;
   }
-} */
+}
