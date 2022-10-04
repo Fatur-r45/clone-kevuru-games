@@ -12,6 +12,9 @@ html, body, ul, ol, li, form, fieldset, legend {
 
 .navbar {
     min-height: 130px;
+    transition: 0.5s ease-in-out;
+    
+
 }
 
 .font-s-1 {
@@ -24,6 +27,7 @@ html, body, ul, ol, li, form, fieldset, legend {
 
 #banner {
     background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
+    transition: 0.5s ease-in-out;
    
 }
 #banner2 {
@@ -46,6 +50,8 @@ html, body, ul, ol, li, form, fieldset, legend {
 
 .gobsay{
    margin-left: 100px;
+   display: none;
+   
    
 }
 
@@ -235,7 +241,12 @@ background-image: url('https://kevurugames.com/wp-content/uploads/2020/10/bg-1.p
         top: 80px;
         right: 0;
         margin: 0;
-       
+        transition: opacity .5s ease-in;
+        display: block;
+    }
+
+    .gobsay + .gobsay {
+        opacity: 0;
     }
 
     #banner {
