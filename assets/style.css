@@ -202,8 +202,9 @@ legend {
 #uper-top-footer {
   background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/footer-bg-top.png);
   background-size: cover;
-  height: 30px;
-  margin-left: -40px;
+  background-position: center left;
+  height: 29px;
+  margin-left: 1px;
 }
 
 #top-footer {
