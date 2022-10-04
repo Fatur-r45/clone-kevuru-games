@@ -19,14 +19,10 @@ legend {
 }
 
 .navbar {
-<<<<<<< HEAD
     min-height: 130px;
     transition: 0.5s ease-in-out;
     
 
-=======
-  min-height: 130px;
->>>>>>> e0b403b282ac0815cb9c4d4bffe21775202a9598
 }
 
 .font-s-1 {
@@ -38,13 +34,9 @@ legend {
 }
 
 #banner {
-<<<<<<< HEAD
     background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
     transition: 0.5s ease-in-out;
    
-=======
-  background-image: url("https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp");
->>>>>>> e0b403b282ac0815cb9c4d4bffe21775202a9598
 }
 #banner2 {
   background-image: url("https://kevurugames.com/wp-content/uploads/2020/10/bg-1.png");
@@ -130,19 +122,11 @@ legend {
   line-height: 1.05;
 }
 
-<<<<<<< HEAD
 .gobsay{
    margin-left: 100px;
    display: none;
    
    
-=======
-.service {
-  display: block;
-  box-sizing: border-box;
-  padding-bottom: 100px;
-  background-color: rgb(124, 8, 153);
->>>>>>> e0b403b282ac0815cb9c4d4bffe21775202a9598
 }
 .service2 {
   display: block;
@@ -333,7 +317,7 @@ legend {
   color: black;
 }
 
-<<<<<<< HEAD
+
 @media (min-width: 992px) {
     #banner {
         background-image: url('https://kevurugames.com/wp-content/uploads/2020/11/slide-bg1.jpg.webp');
@@ -378,15 +362,13 @@ legend {
     }
 
 }
-=======
+
 @media (max-width: 767.98px) {
   .feature-image .gambar-game {
     height: 200px;
   }
 }
-<<<<<<< HEAD
->>>>>>> e0b403b282ac0815cb9c4d4bffe21775202a9598
-=======
+
 
 @media (max-width: 575.98px) {
   .icon {
@@ -395,4 +377,4 @@ legend {
     margin-bottom: 15px;
   }
 }
->>>>>>> e4a4069f782503119ee271fde55067f0e746f13c
+
