@@ -210,13 +210,14 @@ legend {
 
 .icons {
   background-image: url(https://kevurugames.com/wp-content/themes/classy/dist/img/page/2d/benefits-wreath.png);
-  background-size: cover;
-  height: 65px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75px;
   width: 120px;
 }
 
 .icon {
-  width: 40px;
+  /* width: 40px; */
   height: 40px;
 }
 
@@ -383,4 +384,15 @@ legend {
     height: 200px;
   }
 }
+<<<<<<< HEAD
 >>>>>>> e0b403b282ac0815cb9c4d4bffe21775202a9598
+=======
+
+@media (max-width: 575.98px) {
+  .icon {
+    /* width: 40px; */
+    height: 30px;
+    margin-bottom: 15px;
+  }
+}
+>>>>>>> e4a4069f782503119ee271fde55067f0e746f13c
